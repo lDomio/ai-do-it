@@ -1,0 +1,5 @@
+export const ORDER_RULES = Object.freeze({
+  REQUERIMIENTOS_MIN_LENGTH: 20,
+  REQUERIMIENTOS_MAX_LENGTH: 2000,
+  IDEMPOTENCY_TTL_MS: 5 * 60 * 1000, // 5 minutos
+});
